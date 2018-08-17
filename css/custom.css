@@ -1,0 +1,7 @@
+.my-header {
+  position: fixed;
+}
+
+.my-main {
+  background-image: url(../images/banner-home.jpg);
+}

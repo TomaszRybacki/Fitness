@@ -13,30 +13,44 @@
   <link rel="icon" type="image/png" sizes="96x96" href="images/favicon96x96.png">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
 
 </head>
 
 <body>
 
-  <header id="header">
-    <img id="header-img" src="images/logo.jpg" alt="FITNESS logo">
+  <header id="header" class="my-header container-fluid px-0">
 
-    <nav id="nav-bar">
-      <ul>
-        <li class="nav-link">Link1</li>
-        <li class="nav-link">Link2</li>
-        <li class="nav-link">Link3</li>
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" class="d-inline-block align-top" alt="FITNESS logo">
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item text-center"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item text-center"><a class="nav-link" href="#">How It Works</a></li>
+        <li class="nav-item text-center"><a class="nav-link" href="#">Services</a></li>
+        <li class="nav-item text-center"><a class="nav-link" href="#">FAQ</a></li>
       </ul>
+      </div>
     </nav>
+
   </header>
 
-  <main id="main">
+  <main id="main" class="my-main">
+
+
+    <!--
     <video id="video"></video>
 
     <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
       <input type="email" id="email" placeholder="Email" />
       <input type="submit" id="submit">
     </form>
+-->
 
   </main>
 
