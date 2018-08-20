@@ -22,7 +22,7 @@
   <header id="header" class="fixed-top">
 
     <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark transparent">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#Start">
         <img src="images/logo.png" class="d-inline-block align-top" alt="FITNESS logo">
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -30,10 +30,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item text-center"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item text-center"><a class="nav-link" href="#">How It Works</a></li>
-          <li class="nav-item text-center"><a class="nav-link" href="#">Services</a></li>
-          <li class="nav-item text-center"><a class="nav-link" href="#">FAQ</a></li>
+          <li class="nav-item text-center"><a class="nav-link" href="#About">About</a></li>
+          <li class="nav-item text-center"><a class="nav-link" href="#Lifestyle">Lifestyle</a></li>
+          <li class="nav-item text-center"><a class="nav-link" href="#Video">Video</a></li>
+          <li class="nav-item text-center"><a class="nav-link" href="#Newsletter">Newsletter</a></li>
         </ul>
       </div>
     </nav>
@@ -42,7 +42,7 @@
 
   <main id="main" class="my-main">
 
-    <div class="main-banner">
+    <div class="main-banner" id="Start">
 
       <div class="container h-100">
         <div class="row h-100 align-items-end pb-4">
@@ -57,7 +57,7 @@
 
     </div>
 
-    <div class="bg-green">
+    <div class="bg-green" id="About">
 
       <div class="container-fluid py-5 px-4">
 
@@ -96,7 +96,7 @@
     </div>
 
 
-    <div class="bg-red">
+    <div class="bg-red" id="Lifestyle">
 
       <div class="container-fluid py-5 px-4">
 
@@ -160,7 +160,7 @@
     </div>
 
 
-    <div class="end-banner">
+    <div class="end-banner" id="Video">
 
       <div class="container h-100">
         <div class="row h-100 d-flex flex-column justify-content-center">
@@ -180,18 +180,53 @@
 
     </div>
 
-    <!--
-    <video id="video"></video>
-
-    <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
-      <input type="email" id="email" placeholder="Email" />
-      <input type="submit" id="submit">
-    </form>
--->
-
   </main>
 
-  <footer id="footer"></footer>
+  <footer id="Newsletter" class="footer py-5">
+
+    <div class="red-triangle-footer"></div>
+
+    <div class="container">
+      <div class="row py-5">
+        <div class="col">
+          <h4 class="text-light h6">Resources</h4>
+          <p class="small text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus est earum qui sed perspiciatis provident praesentium facilis necessitatibus minima.</p>
+        </div>
+
+        <div class="col">
+          <h4 class="text-light h6">About us</h4>
+          <p class="small text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus est earum qui sed perspiciatis provident praesentium facilis necessitatibus minima.</p>
+        </div>
+
+        <div class="col">
+          <h4 class="text-light h6">Stay in touch</h4>
+          <a class="p-2" href="#Start" title="Link to facebook"><img class="my-3" src="images/facebook.png" alt="facebook icon"><span class="sr-only">Link to facebook</span></a>
+          <a class="p-2" href="#Start" title="Link to twitter"><img class="my-3" src="images/twitter.png" alt="twitter icon"><span class="sr-only">Link to twitter</span></a>
+          <a class="p-2" href="#Start" title="Link to youtube"><img class="my-3" src="images/youtube.png" alt="youtube icon"><span class="sr-only">Link to youtube</span></a>
+          <a class="p-2" href="#Start" title="Link to linkedin"><img class="my-3" src="images/linkedin.png" alt="linkedin icon"><span class="sr-only">Link to linkedin</span></a>
+        </div>
+      </div>
+    </div>
+
+    <form class="container" id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+      <div class="form-group form-row">
+
+        <div class="col-sm-3 col-md-2 py-2 offset-sm-2 offset-md-5 offset-lg-6">
+          <label class="sr-only" for="name">Your Name</label>
+          <input class="form-control" type="text" id="name" placeholder="Your Name">
+        </div>
+
+        <div class="col-sm-3 col-md-2 py-2">
+          <label class="sr-only" for="email">Your Email</label>
+          <input class="form-control" type="email" id="email" placeholder="Your Email" />
+        </div>
+
+        <button class="btn btn-success my-2 mx-2" type="submit" id="submit">Join Newsletter</button>
+
+      </div>
+    </form>
+
+  </footer>
 
   <script src="js/jquery-3.3.1.slim.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>

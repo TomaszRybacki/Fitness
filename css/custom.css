@@ -51,7 +51,7 @@ body {
 }
 
 .footer {
-  background-color: black  rgb(13, 17, 26);
+  background-color: rgb(13, 17, 26);
 }
 
 .end-banner {
@@ -84,4 +84,14 @@ body {
   height: 0;
   border-bottom: 60px solid rgb(13, 17, 26);
   border-left: 50vw solid transparent;
+}
+
+.red-triangle-footer {
+  position: relative;
+  bottom: 0px;
+
+  max-width: 0;
+  height: 0;
+  border-bottom: 20px solid rgb(254, 99, 79);
+  border-right: 70vw solid transparent;
 }
