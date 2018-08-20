@@ -4,7 +4,7 @@ Remake of free psd template find on web. I have started to learn bootstrap in pr
 
 ## Live preview
 
-[Link to github.io preview page - coming soon]()
+[Link to github.io preview page](https://tomaszrybacki.github.io/Fitness/)
 
 ## Free Code Camp challenge
 
